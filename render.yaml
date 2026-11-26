@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: bethesda-md-20814
+    env: static
+    staticPublishPath: public
+    buildCommand: ""
+    pullRequestPreviewsEnabled: false
